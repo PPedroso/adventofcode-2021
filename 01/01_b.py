@@ -1,11 +1,9 @@
-file = open("02_input.txt","r")
+file = open("01_input.txt","r")
 
 values = file.readlines()
 values = list(map(lambda n : int(n.strip()),values))
 
 larger_values = 0
-
-
 
 for index,value in enumerate(values):
     if(index > 2):
